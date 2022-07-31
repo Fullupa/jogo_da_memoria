@@ -1,0 +1,18 @@
+.colorir-helloworld{
+    background-color:#b3a106;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    font-size: 21px;
+    font-weight: bold;
+    padding-right: 700px;
+
+};
+
+
+body {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
