@@ -7,10 +7,10 @@ h1 {
     -webkit-text-stroke-color: aliceblue;
 }
 
-body{
-    background-color: lightblue;
+/* body{
+    
     background-image:url(https://scontent-gru1-2.xx.fbcdn.net/v/t1.18169-9/11196356_1699087863652102_3309106425640324994_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2c4854&_nc_eui2=AeG_j3GpR3f-x3hJfw1aZDI9DksBUNGs6-0OSwFQ0azr7Q1o8dY4jMQ2zT2jnmh9ZkmfdtV2ZMqNk6QD6IdvQqaa&_nc_ohc=VRrqHMaZemMAX-2MDIg&_nc_ht=scontent-gru1-2.xx&oh=00_AT9PgV1octsbNgn6pVu6vaXRX-kXUcOP34onrd8ZYvzjdg&oe=630C8244);
-}
+} */
 
 p{
     -webkit-text-stroke-width: 1px;
@@ -35,7 +35,7 @@ p{
     
     align-items: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .cor-iniciar-jogo{
     font-size: 20px;
@@ -46,4 +46,19 @@ button {
     background-color: rgb(255, 0, 0);
     padding: 15px;
     border-radius: 8px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabela{
+    border: 1px solid black;
+    height: 650px;
+    width: 900px;
+}
+td{
+    margin: 6px;
+    border: 1px solid black;
 }
