@@ -5,35 +5,76 @@
 		<meta charset="UTF-8">
 		<title>Jogo da memória</title>
 		<link rel="stylesheet" href="style.css">
-
 	</head>
 
 	<body>
 
-		<!-- <h1>Jogo da memória</h1>
+<!--Comeco tela Inicial-->
 
-		<p> Este é um jogo da memória com o tema de <strong id="porradabaka">"Porrada Baka"</strong> criado por <strong>Felipe</strong> e <strong>Bruno</strong>, também um dos podutores da saga.</p>
+		<section class="tela-inicial">
 
-		<p id="segundoP"><em>Divirta-se!</em></p>
+			<div class="conteudo">
+				<div class="mensagem-inicial">
+					<h1>Jogo da memória</h1>
+					<p> Este é um jogo da memória com o tema de <strong id="porradabaka">"Porrada Baka"</strong> criado por <strong>Felipe</strong> e <strong>Bruno</strong>, também um dos produtores da saga.</p>
+					<p id="segundoP"><em>Divirta-se!</em></p>
+					<button class="botao-iniciar">Iniciar Jogo</button>
+				</div>
+			</div>
 
-    <div class="botao-iniciar">
-        <button type="submit"><strong class="cor-iniciar-jogo">Iniciar Jogo</strong></button>
+		</section>
 
-    </div> -->
-        
-	<header style="text-align:center">Jogo da memória</header>
+<!--Fim tela Inicial-->
 
-	<div class="conteudo">
-		<div class="box">
-		
-			<table class="tabela">
-			
-			<tr class="linha"><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
-			<tr class="linha"><td>4</td><td>5</td><td>6</td><td>1</td><td>2</td><td>3</td></tr>
-			<tr class="linha"><td>7</td><td>8</td><td>9</td><td>1</td><td>2</td><td>3</td></tr>
-		
-		</table>
-		</div>
 
-	</div>
-	</body>
+
+
+
+<!--Comeco do jogo/tabela-->
+
+		<section class="tela-jogo invisivel">
+
+			<div class="conteudo">
+				<header style="text-align:center">
+					<h1>Jogo da memória</h1>
+				</header>
+
+				<div class="box">
+					<table class="tabela">
+
+						<tr class="linha">
+
+							<!--oh coloquei todas essas "tds" com copy and paste estaticos aaqui, mas nao vamos fazer assim,por que eh errado... eh so pra visualizar mesmo como vai ficar-->
+
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+							<td> <img src="./img/card-padrao.jpg" alt="Imagem Estatica para teste" /> </td>
+
+
+						</tr>
+
+					</table>
+				</div>
+			</div>
+		</section>
+
+<!--Fim do jogo/tabela-->
+
+	<script src="./index.js"></script>
+
+</body>
